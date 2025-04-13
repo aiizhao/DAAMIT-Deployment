@@ -1,16 +1,6 @@
 var galleryInfo = [
-    info("Bowen Wu", "A Rest at Dirtmouth", "A Rest at Dirtmouth"), 
     info("Brinley Zhao", "Clouds and Light", "Clouds and Light"), 
-    info("Skylar Larsen", "Seasons in Moominvalley", "Seasons in Moominval"), 
-    info("Aria Kydd", "Eclipse (WIP)", "Eclipse (WIP)"), 
-    info("DAAMIT Discord Server", "Google Jamboard<br/>Prompt: Cat", "Google Jamboard - Cats"), 
-    info("Raphi Kang", "March 2020 Challenge<br class='dash-break'/>Design a Possible Sticker for DAAMIT", "3/2020 - CPW Swag"), 
-    info("Bowen Wu", "December 2019 Challenge<br class='dash-break'/>Secret Santa", "12/2019 - Secret Santa"), 
-    info("Amani Toussaint", "October 2019 Challenge<br class='dash-break'/>Short GIF", "10/2019 - Short GIF"), 
-    info("Bowen Wu", "October 2019 Challenge<br class='dash-break'/>Short GIF", "10/2019 - Short GIF"), 
-    info("MITAG Members", "Shen Comix Meetup", "Shen Comix Meetup"), 
-    info("MITAG Members", "Shen Comix Collab", "Shen Comix Collab"), 
-    info("MITAG Members", "September 2019 - First Meeting", "9/2019 - First Meeting")
+    info("Skylar Larsen", "Seasons in Moominvalley", "Seasons in Moominval"),
 ]; 
 
 function info(artist, description, shortDesc){return {artist, description, shortDesc}}; // Replaced by deploy script
