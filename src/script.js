@@ -1,9 +1,4 @@
-var galleryInfo = [
-    info("Brinley Zhao", "Clouds and Light", "Clouds and Light"), 
-    info("Skylar Larsen", "Seasons in Moominvalley", "Seasons in Moominval"),
-]; 
-
-function info(artist, description, shortDesc){return {artist, description, shortDesc}}; // Replaced by deploy script
+var galleryInfo = [info("Brinley Zhao", "Clouds and Light", "Clouds and Light"), info("Skylar Larsen", "Seasons in Moominvalley", "Seasons in Moominval"),]; function info(artist, description, shortDesc){return {artist, description, shortDesc}}; // Replaced by deploy script
 
 // First line will be deleted
 // Info format is: { artist, description, shortDesc }
